@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Home</title>
+</head>
+<body bgcolor = #f6dfeb>
+    <center>
+
+    <h1> Telco Customer Churn Project </h1><br>
+
+    <form method="POST", action="{{url_for('home')}}">
+        Customer ID : <input type="text", name = 'a', placeholder="enter 1"><br><br><br>
+        Tenure : <input type="text", name = 'b', placeholder="enter 2"><br><br><br>
+        Muliple Lines : <input type="text", name = 'c', placeholder="enter 3"><br><br><br>
+        Tech Support : <input type="text", name = 'd', placeholder="enter 4"><br><br><br>
+        Contract : <input type="text", name = 'e', placeholder="enter 5"><br><br><br>
+        Payment Method : <input type="text", name = 'f', placeholder="enter 6"><br><br><br>
+        Paperless Billing : <input type="text", name = 'g', placeholder="enter 7"><br><br><br>
+        Total Charges : <input type="text", name = 'h', placeholder="enter 8"><br><br><br>
+        <input type="submit", value="predict">
+    </form>
+
+</center>
+
+</body>
+</html>
