@@ -4,6 +4,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
 
 class Telco(db.Model):
+    
     __tablename__ = 'telco'
 
     id = db.Column(db.Integer)
